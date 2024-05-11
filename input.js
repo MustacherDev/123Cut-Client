@@ -176,10 +176,10 @@ function handleTouchStart(event) {
     input.touchState[0] = true;
     input.touchState[1] = true;
 
-    if(isMobile){
-      input.mouseState[0][0] = true;
-      input.mouseState[0][1] = true;
-    }
+    // if(isMobile){
+    //   input.mouseState[0][0] = true;
+    //   input.mouseState[0][1] = true;
+    // }
 
 }
 
@@ -200,10 +200,10 @@ function handleTouchEnd(event) {
     input.touchState[0] = false;
     input.touchState[2] = true;
 
-    if(isMobile){
-      input.mouseState[0][0] = false;
-      input.mouseState[0][2] = true;
-    }
+    // if(isMobile){
+    //   input.mouseState[0][0] = false;
+    //   input.mouseState[0][2] = true;
+    // }
 }
 
 
